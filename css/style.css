@@ -1,3 +1,9 @@
+html, body {
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	margin: 0;
 	font-family: Arial;
@@ -11,6 +17,7 @@ header {
 	display: inline-block;
 }
 header nav {
+
 	float: right;
 	font-size: 20px;
 }
@@ -39,6 +46,7 @@ main h1, h2, footer  {
 main {
 	margin: auto;
 	width: 1000px;
+
 
 }
 
@@ -88,7 +96,6 @@ label, .formulario {
 }
 
 .grid {
-	display: grid;
 	grid-template-columns: repeat(2, 50%);
 	display: flex;
 	flex-wrap: wrap;
@@ -111,16 +118,6 @@ label, .formulario {
 	margin: auto;
 }
 
-@media (max-width: 768px) {
-	.grid {
-		flex-direction: column;
-	}
-
-	.coluna {
-		flex: 1 1 100%;
-	}
-}
-
 footer a {
 	background: #FFF;
 	text-decoration: none;
@@ -141,3 +138,73 @@ footer a:hover {
 footer a i {
 	font-size: 32px;
 }
+
+.mostrar {
+	display: block;
+}
+.menu {
+	display: none; 
+}
+
+
+@media (max-width: 420px) {
+
+	header img {
+		width: 150px;
+	}
+
+	body {
+		width: 100%;
+		overflow-x: hidden;
+	}
+
+	.banner {
+		display: none;
+	}
+
+	main {
+		width: 100%;
+		max-width: 1000px;
+		padding: 20px;
+		box-sizing: border-box;
+		margin: auto;
+
+	}
+	
+	.grid {
+		flex-direction: column;
+	}
+	header nav {
+		display: none;
+	}
+	header nav ul {
+	
+		text-align: center;
+		display: flex;
+		justify-content: center; 
+		gap: 20px; 
+		padding: 0;
+		margin: 20px 0 0 0;
+		list-style: none;
+	}
+
+	header nav ul li {
+		display: inline-block; 
+		margin: 0;
+	}
+
+	}
+	footer {
+		width: 100%;
+
+	}
+
+	.menu {
+		display: block;
+		padding: 10px 15px;
+		float: right;
+		margin-top: 15px;
+	}
+
+}
+
