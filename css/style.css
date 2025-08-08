@@ -3,7 +3,6 @@ html, body {
 	margin: 0;
 	padding: 0;
 }
-
 body {
 	margin: 0;
 	font-family: Arial;
@@ -17,7 +16,6 @@ header {
 	display: inline-block;
 }
 header nav {
-
 	float: right;
 	font-size: 20px;
 }
@@ -46,14 +44,10 @@ main h1, h2, footer  {
 main {
 	margin: auto;
 	width: 1000px;
-
-
 }
-
 label {
 	font-weight: bold;
 }
-
 .formulario {
 	width: 100%;
 	padding: 10px;
@@ -61,18 +55,15 @@ label {
 	border-radius: 5px;
 	border: 1px solid #CCC;
 }
-
 label, .formulario {
 	margin: 10px 0; 
 }
-
 .btn-submit, .btn-reset {
 	border: none;
 	padding: 10px 20px;
 	border-radius: 5px;
 	color: #FFF;
 }
-
 .btn-submit {
 	background: #5ce1e6;
 	transition:  0.5s;
@@ -81,7 +72,6 @@ label, .formulario {
 	background: #F00;
 	color: #FFF;
 }
-
 .btn-reset {
 	background: #FF0000;
 	transition:  0.5s;
@@ -90,11 +80,9 @@ label, .formulario {
 	background: #5ce1e6;
 	color: #FFF;
 }
-
 .formulario:focus {
 	background: #5ce1e6;
 }
-
 .grid {
 	grid-template-columns: repeat(2, 50%);
 	display: flex;
@@ -104,12 +92,10 @@ label, .formulario {
 	justify-content: center;
 	text-align: justify;
 	text-indent: 30px;
-
 }
 .coluna {
 	flex: 1 1 45%;
 }
-
 .coluna img, iframe {
 	width: 100%;
 	max-width: 300px;
@@ -117,7 +103,6 @@ label, .formulario {
 	display: block;
 	margin: auto;
 }
-
 footer a {
 	background: #FFF;
 	text-decoration: none;
@@ -130,7 +115,6 @@ footer a {
 	line-height: 30px;
 	transition: all 0.5s;
 }
-
 footer a:hover {
 	background: #094779;
 	color: #FFF;
@@ -138,39 +122,30 @@ footer a:hover {
 footer a i {
 	font-size: 32px;
 }
-
 .mostrar {
 	display: block;
 }
 .menu {
 	display: none; 
 }
-
-
 @media (max-width: 420px) {
-
 	header img {
 		width: 150px;
 	}
-
 	body {
 		width: 100%;
 		overflow-x: hidden;
 	}
-
 	.banner {
 		display: none;
 	}
-
 	main {
 		width: 100%;
 		max-width: 1000px;
 		padding: 20px;
 		box-sizing: border-box;
 		margin: auto;
-
 	}
-	
 	.grid {
 		flex-direction: column;
 	}
@@ -178,7 +153,6 @@ footer a i {
 		display: none;
 	}
 	header nav ul {
-	
 		text-align: center;
 		display: flex;
 		justify-content: center; 
@@ -187,18 +161,13 @@ footer a i {
 		margin: 20px 0 0 0;
 		list-style: none;
 	}
-
 	header nav ul li {
 		display: inline-block; 
 		margin: 0;
 	}
-
-	}
 	footer {
 		width: 100%;
-
 	}
-
 	.menu {
 		display: block;
 		padding: 10px 15px;
